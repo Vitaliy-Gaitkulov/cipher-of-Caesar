@@ -1,0 +1,58 @@
+@import 'https://fonts.googleapis.com/css?family=Open+Sans';
+
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  width: calc(100vw - 25px);
+  height: 100vh;
+  display: block;
+  text-align: center;
+  
+  font-size: 18px;
+  text-shadow: 0 1px 0 #eee; 
+  font-weight: bold; 
+  background: center grey no-repeat   ;
+   background-size: cover;
+  color: white;
+  
+  font-family: "Arial"
+}
+input:hover{
+background: #789;
+}
+.shift{
+  width: 50px;
+}
+
+input {
+  padding: 10px;
+  border: 0px;
+  outline: 0;
+  border-bottom: 3px solid #000;
+  background-color: transparent;
+  color: white;
+  text-align: center;
+  font-size: 22px;
+  transition: border-bottom 300ms ;
+  
+  &:focus {
+    border-bottom: 2px solid white  
+  }
+}
+
+p,h1 {
+  
+  display: block;
+  text-align: center;
+  
+  width: center 200px;
+  color: #272822;
+  
+  font-family: "Arial"
+}
+#output {
+  font-size: 30px;
+  
+}
